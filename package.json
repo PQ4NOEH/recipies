@@ -1,0 +1,19 @@
+{
+  "name": "recetario",
+  "version": "0.0.1",
+  "description": "Recetas para el niño",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "recetas",
+    "niño"
+  ],
+  "author": "PQ4NOEH",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1"
+  }
+}

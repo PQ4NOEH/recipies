@@ -1,0 +1,10 @@
+{
+  "recipies": {
+    "452A6BF8E5C14BBEAB65F2DE69863744":{
+      "ingredients":["Rape, 600 gramos", "Almejas, 200 gramos", "Aceite de oliva, 100 ml", "Vino blanco, 100 ml","Caldo de pescado, 200 ml", "Una cebolla", "Un par de dientes de ajo", "Una cucharada de harina","perejil freco", "sal"],
+      "name":"Rape en salsa verde",
+      "tags":["pescado"],
+      "references":["http://www.recetasalsaverde.com/SalsaVerde/SalsaVerdeConRape/SalsaVerdeConRape.html"]
+    }
+  }
+}
