@@ -1,0 +1,4 @@
+<input ng-model="searchBar.recipyName" ng-change="searchBar.findRecipy(searchBar.recipyName)">
+<ul class="suggestion">
+  <li ng-repeat="r in searchBar.avalaibleRecipies">{{r.name}}</li>
+</ul>
