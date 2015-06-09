@@ -1,5 +1,8 @@
 <form ng-submit="recipyEdition.actions.saveRecipy(recipyEdition.state.data)">
-  <formly-form model="recipyEdition.state.data" fields="recipyEdition.state.fields">
-  </formly-form>
+  <fieldset>
+    <legend>Receta</legend>
+    <formly-form model="recipyEdition.state.data" fields="recipyEdition.state.fields">
+    </formly-form>
+  </fieldset>
   <button type="submit" class="btn">Guardar</button>
 </form>

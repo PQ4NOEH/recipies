@@ -2,7 +2,7 @@ module.exports={
   recipyEdition: {
     state: 'recipyEdition',
     name:'recipyEdition',
-    path: '/recipyEdition',
+    path: '/recipyEdition/:recipyId',
     template: 'js/recipy/recipyEdition.html',
     controller: 'recipyEditionCtrl'
   },

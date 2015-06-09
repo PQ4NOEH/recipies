@@ -1,4 +1,7 @@
-<input ng-model="searchBar.recipyName" ng-change="searchBar.findRecipy(searchBar.recipyName)">
+<input ng-model="recipySearch.recipyName" ng-change="recipySearch.findRecipy(recipySearch.recipyName)">
 <ul class="suggestion">
-  <li ng-repeat="r in searchBar.avalaibleRecipies">{{r.name}}</li>
+  <li ng-repeat="r in recipySearch.state.findedRecipies">
+    <span ng-bind="r.name"></span> 
+    <a href="#/recipyEdition/{{r._code}}">Editar</a>
+  </li>
 </ul>

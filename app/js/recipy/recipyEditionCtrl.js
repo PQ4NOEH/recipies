@@ -1,12 +1,20 @@
 "use strict";
 var CONFIG = require("./recipyEditionConfig");
-function Controller(actions){
+function Controller(actions, params){
   this.actions = actions;
-  this.state = {
-    fields: CONFIG.fields,
-    data: {}
-  };
+  if(params.recipyId){
+    this.state = {
+      fields: CONFIG.fields,
+      data: actions.getRecipy(params.recipyId)
+    };
+  }else{
+    this.state = {
+      fields: CONFIG.fields,
+      data: {}
+    };
+  }
+ 
 }
-Controller.$inject = ['recipyActions'];
+Controller.$inject = ['recipyActions', '$stateParams'];
 
 module.exports = Controller;
