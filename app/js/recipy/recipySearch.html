@@ -2,6 +2,7 @@
 <ul class="suggestion">
   <li ng-repeat="r in recipySearch.state.findedRecipies">
     <span ng-bind="r.name"></span> 
+    <img ng-src="{{r.imageUrl}}" alt="{{r.name}}">
     <a href="#/recipyEdition/{{r._code}}">Editar</a>
   </li>
 </ul>
